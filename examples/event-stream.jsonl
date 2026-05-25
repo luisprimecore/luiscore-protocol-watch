@@ -1,0 +1,8 @@
+{"kind":"SPFD_RUN","ts":"2026-05-25T08:12:04.000Z","level":"info"}
+{"kind":"PROTOCOL_WATCH","ts":"2026-05-25T08:45:22.000Z","level":"info"}
+{"kind":"VERIFIER_PASS","ts":"2026-05-25T09:01:11.000Z","level":"info"}
+{"kind":"FORK_BAND_DETECT","ts":"2026-05-25T09:33:47.000Z","level":"warn"}
+{"kind":"SPFD_COLLAPSE","ts":"2026-05-25T10:05:03.000Z","level":"info"}
+{"kind":"PROTOCOL_EXPORT","ts":"2026-05-25T10:22:18.000Z","level":"info"}
+{"kind":"VERIFIER_CHECK","ts":"2026-05-25T11:00:00.000Z","level":"debug"}
+{"kind":"SPFD_RUN","ts":"2026-05-25T11:44:55.000Z","level":"info"}
