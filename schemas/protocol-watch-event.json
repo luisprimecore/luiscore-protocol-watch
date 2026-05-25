@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://luiscore.com/schemas/protocol-watch-event.json",
+  "title": "LuisCore Protocol Watch Event",
+  "description": "Operational protocol event row from GET /api/protocol-watch.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["kind", "ts", "level"],
+  "properties": {
+    "kind": { "type": "string" },
+    "ts": { "type": "string", "format": "date-time" },
+    "level": { "type": "string", "enum": ["debug", "info", "warn", "error"] }
+  }
+}
