@@ -1,2 +1,22 @@
 # luiscore-protocol-watch
-Protocol Watch event schema and sample stream for LuisCore
+
+What this is: **public, machine-readable Protocol Watch artifacts** for LuisCore experimental recursive cognition infrastructure — the JSON Schema for protocol events, a sample JSONL stream, and a Node poll script against the live operational API at [luiscore.com](https://luiscore.com).
+
+Live API: `GET https://luiscore.com/api/protocol-watch`
+
+Quick start:
+
+```bash
+export LUISCORE_ORIGIN=https://luiscore.com
+node scripts/poll.js
+```
+
+Files:
+
+- `schemas/protocol-watch-event.json` — event row schema
+- `examples/event-stream.jsonl` — sample stream (Experimental devnet metrics)
+- `scripts/poll.js` — polls the live endpoint and prints JSON
+
+License: MIT
+
+This is experimental infrastructure. APIs may change without notice.
