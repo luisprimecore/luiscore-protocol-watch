@@ -2,6 +2,10 @@
 
 What this is: **public, machine-readable Protocol Watch artifacts** for LuisCore experimental recursive cognition infrastructure — the JSON Schema for protocol events, a sample JSONL stream, and a Node poll script against the live operational API at [luiscore.com](https://luiscore.com).
 
+## Get an API key
+
+Free LuisCore read API access (status, telemetry, ontology, agents): [https://luiscore.com/developers#signup](https://luiscore.com/developers#signup) — approval typically within 24 hours.
+
 Live API: `GET https://luiscore.com/api/protocol-watch`
 
 Quick start:
